@@ -1,4 +1,4 @@
-cd /System/Users/Alex/Documents/School/
+`cd /System/Users/Alex/Documents/School/`
 
 # 🚨 Entering EXAM MODE (macOS School Edition)
 launchctl load exam.period.plist --from="2024-06-04" --to="2024-06-18"
