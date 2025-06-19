@@ -63,6 +63,6 @@ sleep 1
 
 echo
 echo "🎓 GPA = ???"
-read -p "Press any key to cry in .mov format..." -n1 -s
+read -n1 -r -p "Press any key to cry in .mov format..."
 echo
 echo "😭😭😭"
