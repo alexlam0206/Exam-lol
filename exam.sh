@@ -1,10 +1,9 @@
 #!/bin/bash
 
-# Ask for the user's name
 read -p "Hey! What's your name? " username
+username=${username:-Student}  # fallback if empty
 echo
 
-# Simulate changing directory with user input
 echo "cd /System/Users/$username/Documents/School/"
 echo "✅ (Simulated directory change, not actually changing directory)"
 echo
