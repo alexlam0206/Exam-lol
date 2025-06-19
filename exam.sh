@@ -1,6 +1,8 @@
 #!/bin/bash
 
-echo "cd /System/Users/Alex/Documents/School/"
+read -p "Hey! What’s your name? " username
+echo
+echo "cd /System/Users/$username/Documents/School/"
 echo "✅ (Simulated directory change, not actually changing directory)"
 echo
 
@@ -62,7 +64,5 @@ echo "Launching final_result.app..."
 sleep 1
 
 echo
-echo "🎓 GPA = ???"
-read -n1 -r -p "Press any key to cry in .mov format..."
-echo
-echo "😭😭😭"
+read -p "Type your feelings about the GPA and press Enter: " user_feeling
+echo "You said: \"$user_feeling\". Relatable. 😢"
